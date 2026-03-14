@@ -1,0 +1,23 @@
+/* Tailwind v4 laden */
+@import "tailwindcss";
+
+/* Preflight-Ersatz: Browser-Defaults neutralisieren */
+@layer base {
+  body {
+    margin: 0;
+  }
+}
+
+/* Eigene Styles */
+html, body {
+  height: 100%;
+}
+
+/* Tailwind v4 Theme-Erweiterungen */
+@theme {
+  --color-red: #ef4444;
+}
+
+@theme {
+  --color-brand: #ff00ff;
+}

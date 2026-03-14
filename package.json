@@ -1,0 +1,37 @@
+{
+  "name": "saas-ai-coding",
+  "version": "1.0.0",
+  "description": "SaaS-AI-Coding-Tool",
+  "type": "module",
+  "bin": {
+    "saas-ai-coding": "./cli.mjs"
+  },
+  "scripts": {
+    "cli": "node ./cli.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "node ./server/index.js"
+  },
+  "author": "Steffen Ploetz",
+  "license": "ISC",
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "glob": "^13.0.6",
+    "next": "^15.5.12",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^4.2.1",
+    "typescript": "5.9.3"
+  }
+}
